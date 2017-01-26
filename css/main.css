@@ -1,0 +1,27 @@
+#left-ear {
+  transform-origin: 44px 49px;
+  transform: translateY(0px);
+  transition: all 1s linear;
+}
+
+#right-ear {
+  transform-origin: 212px 49px;
+  transition: all 700ss linear;
+}
+
+#bear:hover #left-ear {
+  transform: translateY(-10px);
+}
+
+#bear:hover #right-ear {
+  transform: translateY(-10px);
+
+
+#right-eye {
+  transform-origin: 171px 107px;
+}
+
+#left-eye {
+  transform-origin: 85px 107px;
+
+}
