@@ -1,12 +1,10 @@
 #left-ear {
   transform-origin: 44px 49px;
-  transform: translateY(0px);
   transition: all 1s linear;
 }
 
 #right-ear {
   transform-origin: 212px 49px;
-  transition: all 700ss linear;
   transition: all 1s linear;
 }
 
@@ -20,9 +18,26 @@
 
 #right-eye {
   transform-origin: 171px 107px;
+  animation: eyeballs 2s infinite linear;
 }
 
 #left-eye {
   transform-origin: 85px 107px;
+  animation: eyeballs 2s infinite linear;
+}
+
+@keyframes eyeballs {
+
+  0% {
+    transform: translateX(-10px);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(-10px)
+  }
 
 }
