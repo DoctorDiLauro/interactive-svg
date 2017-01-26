@@ -8,11 +8,11 @@
   transition: all 1s linear;
 }
 
-#bear:hover #left-ear {
+#face:hover #left-ear {
   transform: translateY(-10px);
 }
 
-#bear:hover #right-ear {
+#face:hover #right-ear {
   transform: translateY(-10px);
 }
 
@@ -37,7 +37,7 @@
   }
 
   100% {
-    transform: translateX(-10px)
+    transform: translateX(-10px);
   }
 
 }
